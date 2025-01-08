@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dining</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="wellness.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1 col-2 line_icon">
+                    <a onclick="menuShow()" style="cursor: pointer;">
+                        <i class="fa fa-align-justify" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-md-3 col-12 sm-none">
+                    <h2 style="display: inline-block;"><a href="https://www.thealcorhotel.com/our-best-deal"
+                            style="margin-top: 20px;">Current
+                            Deals</a></h2>
+                </div>
+                <div class="col-md-4 col-8 head_logo" style="padding: 15px 0;text-align: center;">
+                    <img decoding="async" src="https://www.thealcorhotel.com/wp-content/uploads/2022/06/logo.png"
+                        alt="logo">
+                </div>
+                <div class="col-md-3 col-12 sm-none" id="contact">
+                    <a href="tel:6576620001"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=919204726631"><i class="fa fa-whatsapp"
+                            aria-hidden="true"></i></a>
+                </div>
+                <div class="col-md-1 col-2" style="padding: 0;">
+                    <a class="book_btn1"
+                        href="https://staahmax.staah.net/be/indexpackdetail?propertyId=MjE3OQ==&amp;individual=true"
+                        target="_blank">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Menu  -->
+    <div class="menu" id="menu"
+        style="position: absolute; z-index: 5; width: 100%; left: -1520px; transition: all 1s linear;">
+        <div class="container-fluid">
+            <div class="row" style="background-color:#937541;">
+                <div class="col-md-3 col-12 sm-none" style="padding: 0; height: 100vh;">
+                    <img src="https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/imgTop.jpg" alt=""
+                        height="100%">
+                </div>
+                <div class="col-md-9 col-12">
+                    <div class="box6">
+                        <ul>
+                            <li><a href="index.html"> <u>Home</u></a></li>
+                            <li><a href="accommadation.html">Accommodation</a></li>
+                            <li><a href="dining.html">Dining</a></li>
+                            <li><a href="banquet.html">Banquets</a></li>
+                            <li><a href="wellness.html">Wellness</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a
+                                    href="">.</a>
+                            </li>
+                        </ul>
+                        <a onclick="menuHide()" style="cursor:pointer;">
+                            <div class="button2">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- images  -->
+    <section class="images">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" style="display: grid; place-items: center;">
+                    <h1 style="color: #fff;font-family: 'Joan', serif;text-shadow: 0 4px 2px rgb(0 0 0 / 50%);">Health & Wellness</h1>
+                    <img src="pic.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- menuarea  -->
+    <section class="menuarea" id="list">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li><a class="scrollTo" href="#top">Aina | Salon And Spa</a></li>
+                        <li><a class="scrollTo" href="#Banquet2">Finesse | Fitness Centre</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Relax, restore & rejuvenate with our wellness facilities at The Alcor. With two luxurious spas,
+                        beauty salons & one fitness centre, we want to offer our guests the opportunity to have access
+                        to all wellness facilities under one roof, without worrying about stepping out of the property.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- boxarea -->
+
+    <section class="dining">
+        <div class="container">
+            <div class="row" id="darea">
+                <div class="col-md-5 col-12" >
+                    <div id="dining1" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#dining1" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#dining1" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#dining1" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#dining1" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://www.thealcorhotel.com/wp-content/uploads/2022/07/img3-3.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.thealcorhotel.com/wp-content/uploads/2022/07/spaimg1.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.thealcorhotel.com/wp-content/uploads/2022/07/img8-2.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.thealcorhotel.com/wp-content/uploads/2022/07/img11-1.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#dining1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#dining1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-7 col-12" >
+                    <div class="box">
+                        <h1> AINA | SALON AND SPA</h1>
+                        <img src="https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/border.png"
+                            alt="img">
+                        <p style="align-items: center;">With a plethora of skin, hair & body treatments – Aina is a
+                            sanctuary for relaxation. With two elegantly designed outlets, separate for men and women,
+                            Aina offers you the luxury of stepping down from your rooms to get all your salon or spa
+                            needs taken care of.</p>
+                        <p style="align-items: center;">Our beauty salon offers hair and skin treatments as well as
+                            bridal services for wedding clients such as makeup, draping, styling & more. With highly
+                            trained therapists and reputed amenities, our spa offers a variety of relaxing massage
+                            treatments.</p>
+                        <div class="btn" style="margin: 10px 0; padding: 0;border: none;">
+                            <a class="btn1" href="">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dining 2 -->
+
+            <div class="row" style="background-color: whitesmoke;" id="darea">
+                <div class="col-md-7 col-12" style="margin: 20px 0;">
+                    <h1> FINESSE | FITNESS CENTRE</h1>
+                    <img src="https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/border.png" alt="img">
+                    <p style="align-items: center;">The Alcor Gymnasium is located on the second floor of the hotel and
+                        is open from Monday – Saturday, with timings: 7am – 1pm & 5pm – 9pm. Finesse is a serene and
+                        refreshing space housing all the latest fitness equipment and welcoming hotel guests as well as
+                        memberships.</p>
+                    <div class="btn" style="margin: 10px 0; padding: 0;border: none;">
+                        <a class="btn1" href="">View Menu</a>
+                    </div>
+                </div>
+                <div class="col-md-5 col-12">
+                    <div id="dining2" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#dining2" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#dining2" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://www.thealcorhotel.com/wp-content/uploads/2022/07/fitimg1.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.thealcorhotel.com/wp-content/uploads/2022/07/fitimg2.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#dining2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#dining2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12" id="footer">
+                    <h1 style="color: #c9a56e; font-size: 18px;font-family: 'Canela';">Quick Links</h1>
+                    <ul>
+                        <li>
+                            <a href="https://www.thealcorhotel.com">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/accomodation">Accommodation</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/dining">Dining</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/banquets">Banquets</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/wellness">Wellness</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/terms">Terms & Conditions</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.thealcorhotel.com/privacy-policy">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/disclaimer">Disclaimer</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/covid-19-policies">Covid-19 Policies</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-6 col-12" id="last">
+                    <div class="box5">
+                        <h1 style="color: #c9a56e;font-size: 18px;font-family: 'Canela';">Contact Us</h1>
+                        <ul>
+                            <li><a href="tel:7903982450"><i class="fa fa-phone"></i> +91 (657) 662-0001</a></li>
+                            <li><a href="79854"><i class="fa fa-print" aria-hidden="true"></i>
+                                    +91 (657) 662-0011 </a></li>
+                            <li><a href="mailto:X@gmail.com?subject-query&cc=Y@gmail.com&&bcc=z@gmai.com"> <i
+                                        class="fa fa-envelope"></i> reservation@alcorhotels.com</a></li>
+                        </ul>
+                        <h1 style="color: #c9a56e;font-size: 18px;font-family: 'Canela';">Awards</h1>
+                        <ul>
+                            <li style="color: #fff;"> Trip Advisor: Certificate of Excellence 2014</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="hr"></div>
+
+                <div class="col-md-6 col-12">
+                    <div class="social">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/alcorhoteljamshedpur/" target="_blank">
+                                    <i style="color: #3b5998;" class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/thealcor_jamshedpur/" target="_blank">
+                                    <i class="fa fa-instagram instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/the-alcor-hotel/" target="_blank">
+                                    <i style="color:#0077B5;" class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://youtube.com/channel/UCOaPpm8mvbqXodNPeQ9F_6g" target="_blank">
+                                    <i style="color:#FF0000;" class="fa fa-youtube" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.thealcorhotel.com/trip-advisor" target="_blank">
+                                    <i style="color:#34e0a1;" class="fa fa-tripadvisor" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p style="color: #fff;font-family: 'Canela' ">© Copyright 2022 - The Alcor Hotel (A Unit of SRP Oil
+                        Pvt. Ltd.) All Rights Reserved.</p>
+                </div>
+            </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

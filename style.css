@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* padding: 10px; */
+    background-color: rgba(255, 255, 255, 0.8);
+    position:absolute;
+    top: 0;
+    width: 100%;
+}
+.header h2 a{
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.header h2 a:hover{
+    color: #b69b6d;
+}
+
+.line_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #816c48;
+    
+}
+
+.line_icon .fa-align-justify{
+    font-size: 40px;
+}
+
+.head_logo img{
+    height: 40px;
+}
+
+#contact{
+    /* margin: 10px 0;  */
+    text-align: right !important;
+    font-size: inherit;
+}
+#contact a{
+    color: #000000;
+    font-size: 30px;
+    display: inline-block;
+    border-right: 1px solid #000000;
+    padding: 0 30px;
+    margin: 20px 0 0 0;
+    line-height: 0;
+}  
+#contact a:nth-child(2){
+    border: none;
+}
+.book_btn1{
+    width: 100%;
+    height: 100%;
+    float: right;
+    border: 1px solid #816c48;
+    display: grid;
+    place-items: center;
+    /* padding: 10px 10px;     */
+    background: rgba(34, 34, 34, 0.1);
+    font-size: 16px !important;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.book_btn1{
+    text-decoration: none;
+}
+.slidearea{
+    background-image: url("https://www.thealcorhotel.com/wp-content/uploads/2022/05/banner1-1.jpg");
+    height: 85vh;
+    background-size: cover;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail{
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+.first {
+    background-color: #fff;
+    padding: 20px;
+}
+.first h6{
+    color: #806c4a;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.first h1{
+    color: #806c4a;
+    font-size: 26px;
+    font-family: 'Canela';
+    line-height: 60px
+}
+.first p{
+    color: #806c4a;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: 'Canela';
+    line-height: 50px;
+}
+.luxury{
+    background: #f3f3f3;
+    padding: 60px 0;
+}
+.luxury h1{
+    color: #806c4a;
+    font-size: 30px;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    font-family: 'Canela';
+}
+.luxury p{
+    color: #806c4a;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Canela';
+}
+.dining{
+    background: #fff;
+    padding: 60px 0;
+}
+.dining h1{
+    color: #806c4a;
+    font-size: 30px;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    font-family: 'Canela';
+}
+.dining p{
+    color: #806c4a;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Canela';
+}
+.button a{
+    color: #806c4a;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Canela';
+    background-color: #a88b64;
+    padding: 15px 30px;
+    border: 1px solid #a88b64;
+}
+.button a{
+    color: #fff;
+    background-color: #a88b64;
+}
+.button a:hover{
+    color: #a88b64;
+    background-color: #fff;
+}
+.wellness h5{
+    width: 20%
+}
+.wellness{
+    background: #f3f3f3;
+    padding: 60px 0;
+}
+.wellness h1{
+    color: #806c4a;
+    font-size: 30px;
+    padding: 0px 30px;
+    margin: 0px 10px;
+    font-family: 'Canela';
+}
+.wellness p{
+    color: #806c4a;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Canela';
+}
+.box3{
+    padding:0 30px;
+}
+.info h6{
+    color: #806c4a;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.info h1{
+    color: #806c4a;
+    font-size: 26px;
+    line-height: normal;
+    font-weight: 300;
+    font-family: 'Canela';
+    line-height: 60px;
+}
+.Great{
+    background: #f9f4f1;
+}
+.Great p{
+    font-size: 23px;
+    padding: 20px 3px;
+    font-family: 'Canela';
+    color: #806c4a;
+    text-align: center;
+}
+.box4{
+    margin-bottom: 20px;
+    color: #767676;
+    text-align: center;
+    margin-top: -20px;
+}
+.little{
+    background-image: url(https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/bg2.jpg,);
+    height: 300px;
+}
+.footer {
+    background: #1c1c1a;
+    padding: 40px 40px 0;
+}
+.detail-2 p{
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Canela';
+    text-align: center;
+}
+#footer ul {
+    padding: 0 60px 0px 0;
+}
+
+#footer ul li {
+    list-style: none;
+    margin: 5px 5px;
+    float: left;
+}
+
+
+#footer ul li a {
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #b69b6d;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.box5 ul li {
+    float: left;
+    list-style: none;
+    padding: 0 10px 20px;
+}
+.box5 ul li a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+.box5 ul li a:hover {
+    color: #b69b6d;
+}
+.hr{
+    border: 0;
+    background-image: linear-gradient(transparent, #DBDBDB, transparent);
+    height: 2px;
+    margin: 20px 0;
+}
+.social ul{
+    list-style: none;
+    float: left;
+}
+.social ul li{
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid #b69b6d;
+}
+.box6 ul{    
+    margin: 150px  0 0 250px;
+    list-style-type:none ;
+}
+.box6 ul li a{
+    display: block;
+    font-size: 26px;
+    color: #ffffff;
+    padding: 0 0 10px 0;
+    font-family: 'Canela';
+    text-decoration: none;
+}
+.button2{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    top: 15px;
+    right: 15px;
+    z-index: 9999;
+    border: 1px solid #ffffff;
+    padding: 6px 19px;
+}
+@media screen and (max-width:1200px) {
+    .box5{margin: 15px 0;}
+    .box5 ul li {
+        float: none; 
+        margin: 5px 0; 
+    }
+    #footer ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .slidearea{
+        background-image: url("https://www.thealcorhotel.com/wp-content/uploads/2022/05/banner-mobile.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;      
+        max-height: 75%;
+    }
+}
+@media screen and (max-width:768px){
+    .sm-none{
+        display: none;
+    }
+    .box6 ul{
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    .book_btn1{
+        text-align: center;
+    }
+}

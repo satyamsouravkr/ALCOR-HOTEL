@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* padding: 10px; */
+    background-color: rgba(255, 255, 255, 0.8);
+    position:absolute;
+    top: 0;
+    width: 100%;
+}
+.header h2 a{
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.header h2 a:hover{
+    color: #b69b6d;
+}
+
+.line_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #816c48;
+    
+}
+
+.line_icon .fa-align-justify{
+    font-size: 40px;
+    /* border-right: 1px solid #000000; */
+}
+
+.head_logo img{
+    height: 40px;
+}
+
+#contact{
+    /* margin: 10px 0;  */
+    text-align: right !important;
+    font-size: inherit;
+}
+#contact a{
+    color: #000000;
+    font-size: 30px;
+    display: inline-block;
+    border-right: 1px solid #000000;
+    padding: 0 30px;
+    margin: 20px 0 0 0;
+    line-height: 0;
+}  
+#contact a:nth-child(2){
+    border: none;
+}
+.book_btn1{
+    width: 100%;
+    height: 100%;
+    float: right;
+    border: 1px solid #816c48;
+    display: grid;
+    place-items: center;
+    /* padding: 10px 10px;     */
+    background: rgba(34, 34, 34, 0.1);
+    font-size: 16px !important;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.book_btn1{
+    text-decoration: none;
+}
+.images{
+    background-image: url("https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/banquets02.jpg");
+    background-size: cover;
+    padding: 150px 0;
+}
+.menuarea{
+    background-color: #806C4A;
+    color: #fff;
+    width: 100%;
+}
+
+.menuarea ul li{
+    /* float: left; */
+    display: inline-block;
+    padding: 15px 20px;
+}
+.menuarea ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Canela';
+    text-decoration: none;
+}
+.menuarea ul li a:hover{
+    text-decoration: underline;
+}
+#list{
+    text-align: center;
+}
+.text strong{
+    background-color: #806C4A;
+    color: #fff;
+    padding: 5px;
+    border-radius: 2px;
+}
+.text p{
+    color: #806c4a;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Canela';
+    line-height: 26px;
+    letter-spacing: 1px;
+    padding: 60px 40px 0px;
+}
+.text span a{
+    color: #806c4a;
+    font-family: 'Canela';
+}
+.carousel-item{
+    max-height: 300px;
+}
+.dining h1{
+    color: #806c4a;
+    font-size: 26px;
+    line-height: normal;
+    font-weight: 300;
+    font-family: 'Canela';
+}
+.dining h6{
+    color: #806c4a;
+    font-size: 16px;
+    line-height: normal;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 15px 0 0 0;
+    font-family: 'Canela';
+}
+.dining p{
+    color: #806c4a;
+    font-size: 16px;
+    line-height: normal;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 0px 0 0 0;
+    font-family: 'Canela';
+}
+#darea{
+    margin: 50px 0;
+}
+.footer {
+    background: #1c1c1a;
+    padding: 40px 40px 0;
+}
+
+#footer ul {
+    padding: 0 60px 0px 0;
+}
+
+#footer ul li {
+    list-style: none;
+    margin: 5px 5px;
+    float: left;
+}
+#footer ul li a {
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #b69b6d;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.box5 ul li {
+    float: left;
+    list-style: none;
+    padding: 0 10px 20px;
+}
+.box5 ul li a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+.box5 ul li a:hover {
+    color: #b69b6d;
+}
+.hr{
+    border: 0;
+    background-image: linear-gradient(transparent, #DBDBDB, transparent);
+    height: 2px;
+    margin: 20px 0;
+}
+.social ul{
+    list-style: none;
+    float: left;
+}
+.social ul li{
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid #b69b6d;
+}
+
+.box6 ul{
+    /* display: inline-block; */
+    /* padding: 130px 0 0 150px; */
+    margin: 150px  0 0 250px;
+    /* vertical-align: top; */
+    list-style-type:none ;
+}
+.box6 ul li a{
+    display: block;
+    font-size: 26px;
+    color: #ffffff;
+    padding: 0 0 10px 0;
+    font-family: 'Canela';
+    text-decoration: none;
+}
+.button2{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    top: 15px;
+    right: 15px;
+    z-index: 9999;
+    border: 1px solid #ffffff;
+    padding: 6px 19px;
+}
+@media screen and (max-width:1000px){
+    .menuarea ul li{
+        display: none;
+    }
+}   
+
+@media screen and (max-width:1200px) {
+    .box5{margin: 15px 0;}
+    .box5 ul li {
+        float: none; 
+        margin: 5px 0; 
+    }
+    #footer ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:768px){
+    .sm-none{
+        display: none;
+    }
+    #darea{
+    margin: 50px 0;
+    }
+    .box6 ul{
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    .book_btn1{
+        text-align: center;
+    }
+}
