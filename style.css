@@ -220,6 +220,8 @@ body{
 .little{
     background-image: url(https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/bg2.jpg,);
     height: 300px;
+    display: flex;
+    align-items: center;
 }
 .footer {
     background: #1c1c1a;
