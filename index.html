@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1 col-2 line_icon">
+                    <a onclick="menuShow()" style="cursor: pointer;">
+                        <i class="fa fa-align-justify" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-md-3 col-12 sm-none">
+                    <h2 style="display: inline-block;"><a href="https://www.thealcorhotel.com/our-best-deal"
+                            style="margin-top: 20px;">Current
+                            Deals</a></h2>
+                </div>
+                <div class="col-md-4 col-8 head_logo" style="padding: 15px 0;text-align: center;">
+                    <img decoding="async" src="https://www.thealcorhotel.com/wp-content/uploads/2022/06/logo.png"
+                        alt="logo">
+                </div>
+                <div class="col-md-3 col-12 sm-none" id="contact">
+                    <a href="tel:6576620001"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=919204726631"><i class="fa fa-whatsapp"
+                            aria-hidden="true"></i></a>
+                </div>
+                <div class="col-md-1 col-2" style="padding: 0;"> 
+                    <a class="book_btn1"
+                        href="https://staahmax.staah.net/be/indexpackdetail?propertyId=MjE3OQ==&amp;individual=true"
+                        target="_blank">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu  -->
+    <div class="menu" id="menu"
+        style="position: absolute; z-index: 5; width: 100%; left: -1620px; transition: all 1s linear;opacity: 0;">
+        <div class="container-fluid">
+            <div class="row" style="background-color:#937541;">
+                <div class="col-md-3 col-12 sm-none" style="padding: 0; height: 100vh;">
+                    <img src="https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/imgTop.jpg" alt=""
+                        height="100%">
+                </div>
+                <div class="col-md-9 col-12">
+                    <div class="box6">
+                        <ul>
+                            <li><a href="index.html"> <u>Home</u></a></li>
+                            <li><a href="accommadation.html">Accommodation</a></li>
+                            <li><a href="dining.html">Dining</a></li>
+                            <li><a href="banquet.html">Banquets</a></li>
+                            <li><a href="wellness.html">Wellness</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a
+                                    href="">.</a>
+                            </li>
+                        </ul>
+                        <a onclick="menuHide()" style="cursor:pointer;">
+                            <div class="button2">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slidearea  -->
+    <section class="slidearea">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12" style="display: flex;justify-content: center;align-items: center; padding: 0;">
+                    <!-- <img  class="main-bg-image" src="https://www.thealcorhotel.com/wp-content/uploads/2022/05/banner1-1.jpg" id="bannerimg"
+                        alt="bannerimg" width="100%"> -->
+                    <div class="detail">
+                        <h4>Jamshedpur’s leading luxury hotel</h4>
+                        <h3>A tasteful, cosmopolitan & trusted choice</h3>
+                        <img src="pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- first paragraph  -->
+    <section class="first">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>The Alcor Hotel</h6>
+                    <h1>Curating Luxurious Experiences Since 2012</h1>
+                    <img src="https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/border.png" alt="img">
+                    <p>We strive to create unforgettable experiences – with culinary creations at the soul of our entity
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- luxury rooms -->
+    <section class="luxury">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <img src="https://www.thealcorhotel.com/wp-content/uploads/2022/06/home1-1.png" alt="img"
+                        width="100%">
+                </div>
+                <div class="col-md-6 col-12">
+                    <h1>Luxury Rooms</h1>
+                    <h5>
+                        <img src="https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/border.png"
+                            alt="img">
+                    </h5>
+                    <p>Select from our 69 well-appointed rooms & suites – which are an exclusive blend of traditional
+                        hospitality & modern amenities, equipped with five star facilities</p>
+                    <div class="button" style="padding:25px 0px;">
+                        <a href="accommadation.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- dining experiences  -->
+    <section class="dining">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <h1>Dining Experiences</h1>
+                    <h5>
+                        <img src="https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/border.png"
+                            alt="img">
+                    </h5>
+                    <p>Seeking to deliver authentic culinary experiences – from India to Italy, Spain to South America,
+                        at The Alcor we have the entire world cuisines at our fork-tips!</p>
+                    <div class="button" style="padding:25px 0px;">
+                        <a href="dining.html">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <img src="https://www.thealcorhotel.com/wp-content/uploads/2022/06/home2-2-1.png" alt="img"
+                        width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- wellness  -->
+    <section class="wellness">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <img src="https://www.thealcorhotel.com/wp-content/uploads/2022/06/home3-3.png" alt="img"
+                        width="100%">
+                </div>
+                <div class="col-md-6 col-12" style="margin: 20px 0;">
+                    <h1>Wellness</h1>
+                    <h5>
+                        <img src="https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/border.png"
+                            alt="img">
+                    </h5>
+                    <p>Treat yourself to a rejuvenating beauty & wellness experience at The Aina – with a variety of
+                        hair, skin & massage treatments</p>
+                    <div class="button" style="padding:25px 0px;">
+                        <a href="wellness.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hotel Information -->
+    <section class="info" style="text-align: center; margin: 20px 0; padding: 10px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>The alcor hotel</h6>
+                    <h1>Hotel Information</h1>
+                    <img src="https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/border.png" alt="">
+                    <h2>
+                        <i class="fa fa-clock-o" aria-hidden="true"></i><br />
+                    </h2>
+                    <h1>Check In: 12 PM</h1>
+                    <h1>Check Out: 12 PM </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <h2>
+                        <i class="fa fa-archive" aria-hidden="true"></i><br />
+                    </h2>
+                    <h1>Banquets</h1>
+                    <h1>Eight Indoor &amp; Outdoor Venues</h1>
+                </div>
+                <div class="col-md-6 col-12">
+                    <h2><i class="fa fa-car" aria-hidden="true"></i><br /></h2>
+                    <h1>Parking</h1>
+                    <h1>Complimentary On-Site Parking</h1>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Great place to stay considering   -->
+    <section class="Great">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 style="text-align: center;"> <img
+                            src="https://www.thealcorhotel.com/wp-content/themes/alcorhotel/images/quote.png" alt="">
+                    </h1>
+                    <p>Great place to stay considering its location the Alcor provides a really high standard of
+                        accommodation. Even the standard rooms are a good size although the Wi-Fi seems to be a bit
+                        dodgy the food in the restaurant is good and there are a good range of western and Indian
+                        options in the breakfast bar For some reason they were unable to process our payments when we
+                        checked out but otherwise no complaints <br>
+                    <div class="box4">
+                        <span>Pommybattler, Australia</span>
+                    </div>
+                    </p>
+
+                    <p>The Best Hotel in Town I was surprised to find such a beautiful and professional setup in
+                        jamshedpur.I had been to jamshedpur and have stayed with few hotels but this hotel is
+                        outstanding and awesome The Food served here is world class especially at the zirca restaurant
+                        Try some Pizza at Nook Oakwood bar With Hookah services is far more excellent. The Spa and Salon
+                        is where one can wind up after a day's hectic schedule and leave yourself at the dexterous hands
+                        of the staff to uplift your spirits. Finally the Rooms are conventionally done with details to
+                        guest needs. Special attention to the staff over here that are well versed with the Indian
+                        hospitality adage ATHITHI DEVO BHAVA"
+                    <div class="box4">
+                        <span>Keith Andrews237 Berlin, Germany</span>
+                    </div>
+                    </p>
+
+                    <p>Good Food, Good Ambiance The Alcor Hotel is really great. Foods are tasty and the ambiance is so
+                        superb. And the decorations for functions are superb (i went for an engagement ceremony of ma
+                        friend). All over so great and good experience.
+                    <div class="box4">
+                        <span>Honeyduke 2014 Toronto, Canada</span>
+                    </div>
+                    </p>
+
+                    <p>Fantastic hotel for a hotel in a tier 2 city, the Alcor offers unparalleled room size and quality
+                        culinary options and service the room was huge and very well equipped there are plenty of dining
+                        options from sandwiches and burgers to the authentic Japanese and Chinese food. The KhaoSuey is
+                        a must try. They also offer a vast breakfast spread which will satisfy even the most discerning
+                        customers. I highly recommend this hotel for its quality and service
+                    <div class="box4">
+                        <span>Nmulgaokar Mumbai, India</span>
+                    </div>
+                    </p>
+
+                    <P>The service is excellent and the food is amazing this is a four star rated hotel and it
+                        absolutely lives up to its name with the chic decor and mouth watering cuisine. The Thai and
+                        Vietnamese food are a must try for anyone who loves surprising their palette. Rooms are big and
+                        spacious and as I attended a wedding here and a lot of the guests were staying at this hotel,
+                        they were very accommodating and the service was great!
+                    <div class="box4">
+                        <span>SharadS</span>
+                    </div>
+                    </P>
+
+                    <p>Excellent property in a very good location Pros1. Very well kept property spacious rooms Very
+                        high quality of toiletries 2 Location is very good at the heart of Jamshedpur but away from the
+                        din and bustle 3. Superb service levels always ready to help. 4. Food is awesome. One must try
+                        Chicken Flamingo. 5 Fantastic Covid protocols they maintain. You can safely stay without any
+                        worries 6. Loved the overall ambience and decor Cons None
+                    <div class="box4">
+                        <span>Arupmukherjeelll Kolkata (Calcutta), India</span>
+                    </div>
+                    </p>
+
+                    <p>Recommended I have been visiting Jamshedpur from last 20 years, I have stayed in most of the
+                        Hotels which have some name I would highly recommend ALCOR for business travellers Helpful and
+                        professional staff. The front desk is especially very efficient
+                    <div class="box4">
+                        <span>Subhas Kolkata (Calcutta), India</span>
+                    </div>
+                    </p>
+
+                    <p>Felt like 5 start hotel Although it’s not a 5 start hotel, for all practical purposes it can
+                        rival any property in Taj or similar groups, beautifully located off Bistupur the main market
+                        area, the rooms are big and well designed Amenities are top-class Restaurants are top notch
+                        Service is fantastic.
+                    <div class="box4">
+                        <span>Jyotirmoy D Mumbai, India</span>
+                    </div>
+                    </p>
+
+                    <p>Just book it in a city like Jamshedpur your only expectation is how you will get a peaceful stay
+                        after a daylong work in steel plants or their offices. This hotel is just for that. With a grand
+                        reception to well maintained property, it has perfectly poised itself to be one of the top
+                        hotels in Jamshedpur. The room has all the necessities and is large and the bed is super
+                        comfortable. Restaurants have all the variety and the breakfast buffet is lavish Book without
+                        worry
+                    <div class="box4">
+                        <span>Nikeshkm Mumbai, India</span>
+                    </div>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- In little ways, we at Alcor try -->
+    <section class="little">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="detail-2">
+                        <p>
+                            Sustainability In little ways, we at Alcor try to reduce our carbon footprint on the planet. Our
+                        primary delivery vehicle is electric, we compost our food waste & also, all reusable packaging
+                        is collected for recycling or up cycled in order to reduce wastage
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12" id="footer">
+                    <h1 style="color: #c9a56e; font-size: 18px;font-family: 'Canela';">Quick Links</h1>
+                    <ul>
+                        <li>
+                            <a href="https://www.thealcorhotel.com">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/accomodation">Accommodation</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/dining">Dining</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/banquets">Banquets</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/wellness">Wellness</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/terms">Terms & Conditions</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.thealcorhotel.com/privacy-policy">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/disclaimer">Disclaimer</a>
+                        </li>
+                        <li>
+                            <a href="https://www.thealcorhotel.com/covid-19-policies">Covid-19 Policies</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-6 col-12" id="last">
+                    <div class="box5">
+                        <h1 style="color: #c9a56e;font-size: 18px;font-family: 'Canela';">Contact Us</h1>
+                        <ul>
+                            <li><a href="tel:7903982450"><i class="fa fa-phone"></i> +91 (657) 662-0001</a></li>
+                            <li><a href="79854"><i class="fa fa-print" aria-hidden="true"></i>
+                                    +91 (657) 662-0011 </a></li>
+                            <li><a href="mailto:X@gmail.com?subject-query&cc=Y@gmail.com&&bcc=z@gmai.com"> <i
+                                        class="fa fa-envelope"></i> reservation@alcorhotels.com</a></li>
+                        </ul>
+                        <h1 style="color: #c9a56e;font-size: 18px;font-family: 'Canela';">Awards</h1>
+                        <ul>
+                            <li style="color: #fff;"> Trip Advisor: Certificate of Excellence 2014</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="hr"></div>
+
+                <div class="col-md-6 col-12">
+                    <div class="social">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/alcorhoteljamshedpur/" target="_blank">
+                                    <i style="color: #3b5998;" class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/thealcor_jamshedpur/" target="_blank">
+                                    <i class="fa fa-instagram instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/the-alcor-hotel/" target="_blank">
+                                    <i style="color:#0077B5;" class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://youtube.com/channel/UCOaPpm8mvbqXodNPeQ9F_6g" target="_blank">
+                                    <i style="color:#FF0000;" class="fa fa-youtube" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.thealcorhotel.com/trip-advisor" target="_blank">
+                                    <i style="color:#34e0a1;" class="fa fa-tripadvisor" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p style="color: #fff;font-family: 'Canela' ">© Copyright 2022 - The Alcor Hotel (A Unit of SRP Oil
+                        Pvt. Ltd.) All Rights Reserved.</p>
+                </div>
+            </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

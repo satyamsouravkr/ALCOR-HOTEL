@@ -1,12 +1,13 @@
 function menuShow(){
-    if(document.getElementById("menu").style.left==="-1520px"){
+    if(document.getElementById("menu").style.left==="-1620px"){
         document.getElementById("menu").style.left="0px";
+        document.getElementById("menu").style.opacity="1";
     }
 }
 
 function menuHide(){
     if(document.getElementById("menu").style.left==="0px"){
-        document.getElementById("menu").style.left="-1520px";   
+        document.getElementById("menu").style.left="-1620px";   
     }
 }
 
