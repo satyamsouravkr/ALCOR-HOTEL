@@ -326,10 +326,7 @@ body{
         max-height: 75%;
     }
 }
-@media screen and (max-width:992px){
-    .sm-none{
-        display: none;
-    }
+@media screen and (max-width:768px){
     .box6 ul{
         margin: 0;
         padding: 20px;
@@ -337,5 +334,16 @@ body{
     }
     .book_btn1{
         text-align: center;
+    }
+}
+@media screen and(max-width:992px) {
+    .sm-none{
+        display: none;
+    }
+}
+
+@media screen and (max-width:795px){
+    .sg-none{
+        display: none;
     }
 }
