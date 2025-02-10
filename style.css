@@ -327,6 +327,9 @@ body{
     }
 }
 @media screen and (max-width:768px){
+    .sm-none{
+        display: none;
+    }
     .box6 ul{
         margin: 0;
         padding: 20px;
